@@ -1,7 +1,7 @@
-﻿#
+﻿# 马老师专属 Office 工具
 
-## LKY Office Tools
- > 一键自动化 下载、安装、激活 Office 的利器。绿色、开源、安全、无毒。
+> 一键自动化下载、安装、激活 Office 的利器。绿色、开源、安全、无毒。
+> 本项目改版自 LiuKaiyuan 的 LKY Office Tools，遵循 GPL-3.0 开源协议，原作者署名与著作权保留，改版仅做品牌与默认配置调整。
 
 目前包含的功能：
 - 一键快速下载、安装、激活最新版 Microsoft Office 软件。
@@ -12,24 +12,24 @@ Outlook、OneNote、Access、Visio、Project、Publisher、Teams、OneDrive、Ly
 - 当系统中存在多个冗余 Office 版本时，本工具在用户同意的情况下，可实现自动升级。
 
 ## 使用方法
-- 下载形如：LKY_OfficeTools_v*.zip 的压缩包，最新版地址：https://github.com/OdysseusYuan/LKY_OfficeTools/releases/latest
-- 解压下载好的 zip 压缩包，运行解压后目录下的 LKY_OfficeTools.exe 文件即可完成部署。
+- 下载形如：MaLaoshi_OfficeTools_v*.zip 的压缩包，最新版地址：https://github.com/jason6668/m-teacher-officetools/releases/latest
+- 解压下载好的 zip 压缩包，运行解压后目录下的 MaLaoshi_OfficeTools.exe 文件即可完成部署。
 
 ## 运行环境
 - 为保证安装、激活可以最大限度成功，请您尽可能在新装系统后（或从未安装过 Microsoft Office 软件的系统中）运行本工具。
 - 目前已经在 Windows 10(1703) 及以上版本进行了测试，均可在其 x86、x64 完美安装正版 Office 并激活。
 - 应 Office 官方要求，系统中只能部署唯一架构类型，故本工具部署时，会征求用户同意，由其自行决定是否卸载其它架构。
 - 2016年7月及其之前发布的 Windows 系统（即：Windows 10(1703) 之前的系统），因其架构过于陈旧，其已经不再支持安装最新的正版 Office。
- 
+
 ## 开源说明
-- 欢迎广大开发者、爱好者们 Fork、PR 本仓库。参考、引用、转发、二次开发本开源库时，请注明来源。
+- 本改版遵循 GPL-3.0 协议开源，源码公开；原项目作者为 LiuKaiyuan (Odysseus.Yuan)，改版已注明来源。
 - 本工具自动激活功能，仅用于给大家无偿的学习编程开发能力之用，如需商业办公使用，请从微软官网购买商业许可。
 - 任何自然人、企业、机构等，不得使用任何直接或间接的方式将其商业化，违犯成员需要为此承担全部法律责任。
-- 当前工具将持续进行迭代更新和维护，迭代过程中不排除在各种因素综合下，可能产生计算机运行的各种情况。
 
 ## 版权保护
-- 软件已获多项著作权（含修改保护）：软著登字第10549507号、软著登字第10895737号、软著登字第10850084号、软著登字第11497426号、软著登字第11573194号等。
+- 原软件已获多项著作权（含修改保护）：软著登字第10549507号、软著登字第10895737号、软著登字第10850084号、软著登字第11497426号、软著登字第11573194号等。
 
 ## 关于
-- 如有建议、疑惑等，大家可以发邮件至 [OdysseusYuan@foxmail.com](mailto:OdysseusYuan@foxmail.com) 交流探讨。
-- © 2022 - 2024 LiuKaiyuan (Odysseus.Yuan). All Rights Reserved.
+- 使用教程见马老师博客：https://blog.8818618.xyz/p/malaoshi-office-tools/
+- 原项目：https://github.com/OdysseusYuan/LKY_OfficeTools
+- © 2022 - 2024 LiuKaiyuan (Odysseus.Yuan). All Rights Reserved.（原项目版权声明）
