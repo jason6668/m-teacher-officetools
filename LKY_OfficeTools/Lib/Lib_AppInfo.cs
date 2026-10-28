@@ -17,7 +17,7 @@ namespace LKY_OfficeTools.Lib
     {
         internal class AppAttribute
         {
-            internal const string AppName = "LKY Office Tools";
+            internal const string AppName = "马老师专属 Office 工具";
 
             internal const string AppName_Short = "LOT";
 
@@ -25,11 +25,11 @@ namespace LKY_OfficeTools.Lib
 
             internal const string ServiceDisplayName = AppName + " Service";
 
-            internal const string AppFilename = "LKY_OfficeTools.exe";
+            internal const string AppFilename = "MaLaoshi_OfficeTools.exe";
 
-            internal const string AppVersion = "1.3.0.223";
+            internal const string AppVersion = "1.3.1.0";
 
-            internal const string Developer = "LiuKaiyuan";
+            internal const string Developer = "马老师";
         }
 
         internal class AppJson
@@ -50,7 +50,7 @@ namespace LKY_OfficeTools.Lib
 
 #if (!DEBUG)
                         //release模式地址
-                        string json_url = $"https://gitee.com/OdysseusYuan/LKY_OfficeTools/releases/download/AppInfo/LKY_OfficeTools_AppInfo.json";
+                        string json_url = $"https://raw.githubusercontent.com/jason6668/m-teacher-officetools/master/AppInfo.json";
 #else
                         //debug模式地址
                         string json_url = $"https://gitee.com/OdysseusYuan/LOT_OnlyTest/releases/download/AppInfo_Test/test.json";
