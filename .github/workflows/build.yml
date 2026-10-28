@@ -1,0 +1,22 @@
+name: Build
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+      - name: Build Release
+        run: msbuild LKY_OfficeTools.sln /p:Configuration=Release /p:Platform="Any CPU"
+      - name: Zip output
+        run: Compress-Archive -Path LKY_OfficeTools\bin\Release\* -DestinationPath MaLaoshi_OfficeTools_v1.3.1.0.zip
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.3.1.0
+          name: 马老师专属 Office 工具 v1.3.1.0
+          files: MaLaoshi_OfficeTools_v1.3.1.0.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
